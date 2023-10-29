@@ -1,0 +1,23 @@
+{
+  "name": "resheph-game",
+  "version": "1.0.0",
+  "description": "Thanks for playing this game",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "Resheph-game": "dist/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "RESHEPH INAYAT",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.11",
+    "node-banner": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.6"
+  }
+}
